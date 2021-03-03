@@ -4,7 +4,7 @@ public class Inventory {
     String description;
     double price;
     boolean exit;
-    int cant;
+    private int cant;
 
     Inventory(String description, double price, boolean exit, int cant){
         this.description = description;
@@ -23,5 +23,13 @@ public class Inventory {
        int  cantSa = salida - cant;
         System.out.println("La cantidad actual es; " +  cantSa);
         return cantSa;
+    }
+
+    public int getCant() {
+        return cant;
+    }
+
+    public void setCant(int cant) {
+        this.cant = cant;
     }
 }

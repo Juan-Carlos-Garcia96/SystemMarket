@@ -4,4 +4,5 @@ public class Milk extends Inventory{
 
         super(description, price, exit, cant);
     }
+
 }
