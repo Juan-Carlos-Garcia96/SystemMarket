@@ -22,13 +22,15 @@ public class Ui {
         return op;
     }
 
-    public  static void action(){
+    public  static int  action(){
         Scanner elec = new Scanner(System.in);
         System.out.println("Ingresa que deseas hacer  ");
         System.out.println();
         System.out.println("1 Ingresar mercancia  ");
         System.out.println("2 Descontar mercancia");
-        op = elec.nextInt();
+        int election = elec.nextInt();
+        return election;
+
     }
 
     }
