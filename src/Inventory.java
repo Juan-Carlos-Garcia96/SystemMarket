@@ -5,5 +5,9 @@ public class Inventory {
     double price;
     boolean exit;
 
-    Inventory(){}
+    Inventory(String description, double price, boolean exit){
+        this.description = description;
+        this.price = price;
+        this.exit = exit;
+    }
 }
