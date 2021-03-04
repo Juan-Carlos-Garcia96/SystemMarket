@@ -15,7 +15,7 @@ public class Milk extends Inventory{
 
     @Override
     public int ingresoMerc(int ingreso) {
-        return super.ingresoMerc(ingreso);
+        return  this.getCant() + ingreso;
     }
 
     @Override

@@ -46,12 +46,19 @@ public class Ui {
     public static int  modifyArt() {
         Scanner modif = new Scanner(System.in);
         System.out.println("1  Deseas modificar la canridad");
-        System.out.println("2 Deseas modificar el precio");
+        System.out.println("2  Deseas modificar el precio");
         int modify = modif.nextInt();
         return  modify;
+    }
 
+    public  static  int operations(){
 
-
+        Scanner desIngre = new Scanner(System.in);
+        int elec;
+        System.out.println("1 Deseas agregar mercancia ");
+        System.out.println("2 Deseas quitar mercancia ");
+        elec = desIngre.nextInt();
+        return elec;
     }
 
     }

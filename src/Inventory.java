@@ -26,7 +26,7 @@ public class Inventory {
     }
 
     public int getCant() {
-        return cant;
+        return cant ;
     }
 
     public void setCant(int cant) {
