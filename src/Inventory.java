@@ -15,7 +15,7 @@ public class Inventory {
 
     public int  ingresoMerc(int  ingreso){
         int cantIn = cant + ingreso;
-        System.out.println("La cantidad acttual es: " + cantIn);
+        System.out.println("La cantidad actual es: " + cantIn);
         return cantIn;
     }
 
