@@ -28,8 +28,20 @@ public class Ui {
         System.out.println();
         System.out.println("1 Ingresar mercancia  ");
         System.out.println("2 Descontar mercancia");
+        System.out.println("0 Descontar mercancia");
         int election = elec.nextInt();
         return election;
+
+    }
+
+
+    public static void  admin(){
+        Scanner pass = new Scanner(System.in);
+        System.out.println("Bienvenido al administrador");
+        System.out.println("Ingresa tu contraseña ");
+        int Pass = pass.nextInt();
+
+
 
     }
 

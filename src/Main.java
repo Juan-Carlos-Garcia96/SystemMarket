@@ -12,9 +12,10 @@ public class Main {
 
     }else if( op == 2){
             System.out.println("Bye");
-        }else {
-        System.out.println("Ingresa un valor correcto");
+        }else if (op == 0){
+
     }
+
 
 
     }

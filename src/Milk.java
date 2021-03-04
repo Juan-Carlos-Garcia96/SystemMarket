@@ -1,8 +1,16 @@
 public class Milk extends Inventory{
 
+
+
     Milk(String description, double price, boolean exit, int cant) {
 
         super(description, price, exit, cant);
+    }
+
+
+    public void dats(){
+        System.out.println("El articulo es: "+ description + "Su precio es " + price + "Su existenciaes" + exit);
+
     }
 
     @Override
