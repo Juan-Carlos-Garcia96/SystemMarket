@@ -43,6 +43,17 @@ public class Ui {
         return Pass;
     }
 
+    public static int  modifyArt() {
+        Scanner modif = new Scanner(System.in);
+        System.out.println("1  Deseas modificar la canridad");
+        System.out.println("2 Deseas modificar el precio");
+        int modify = modif.nextInt();
+        return  modify;
+
+
+
+    }
+
     }
 
 
