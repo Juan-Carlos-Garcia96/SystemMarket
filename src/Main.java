@@ -43,9 +43,7 @@ public class Main {
                                 Scanner date = new Scanner(System.in);
                                 System.out.println("Acutualmente  exiten " + milk.getCant() + " piezzas");
                                 System.out.println("Digita la cantidad a ingresar");
-                                int dat = date.nextInt();
-                                int total = milk.ingresoMerc(dat);
-                                System.out.println("La cantidad actual es de " + total + " Piezas");
+                                System.out.println("La cantidad actual es de " + milk.ingresoMerc(date.nextInt()) + " Piezas");
                             }
                               break;
                       }
